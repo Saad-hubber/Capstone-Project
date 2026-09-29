@@ -4,6 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 
 df = pd.read_csv("Sleep_health_and_lifestyle_dataset.csv")
+df['Sleep Disorder'] = df['Sleep Disorder'].fillna('None')
 
 df = pd.get_dummies(
     df,
