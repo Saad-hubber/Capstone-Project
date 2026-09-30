@@ -61,10 +61,7 @@ Categorical variables were converted into numerical features using one-hot encod
 * Matplotlib
 * Seaborn
 * Joblib
-* HTML
-* CSS
-* JavaScript
-* Vercel
+* Steamlit
 
 
 ## Working
